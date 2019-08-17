@@ -1,7 +1,7 @@
 #BLL
 import pymysql
 class Customer:
-    con = pymysql.connect(host="localhost", user="root", password="root123", database="CustomerManagementSystem", port=3306)
+    con = pymysql.connect(host="localhost", user="****", password="*****", database="CustomerManagementSystem", port=3306)
     mycur = con.cursor()
 
     def __init__(self):#Constructor
